@@ -1,0 +1,34 @@
+.footer {
+    background-color: $bgcolor;
+    min-height: 80px;
+    min-width: 100vw;
+    overflow: hidden;
+    flex: 0 0 auto;
+    border-top: 3px solid transparent;
+    border-image: linear-gradient(to right, #f2f6fa 0%, #1c667a 50%, #f2f6fa 100%);
+    border-image-slice: 1;
+}
+
+.wrapper__footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: center;
+    /*align-items: center;*/
+}
+
+.footer__left {
+    width: 250px;
+}
+
+.footer__rigth {
+    width: 660px;
+}
+
+.copyright {
+    text-align: center;
+    font-family: $mainfont;
+    font-size: $text-min;
+    margin: 0 auto;
+    color: $textcolor;
+}

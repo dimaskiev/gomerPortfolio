@@ -1,0 +1,27 @@
+.header {
+    background-color: $bgcolor;
+    height: 120px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(to right, #f2f6fa 0%, #1c667a 50%, #f2f6fa 100%);
+    border-image-slice: 1;
+}
+
+.header__logo {
+    width: 244px;
+}
+
+.logo {}
+
+.header__social {
+    width: 300px;
+    background-color: blue;
+    height: 120px;
+}
+
+.icon-vk:hover {
+    background-image: url(/assets/img/sprite.png);
+    background-position: 0px -670px;
+    width: 671px;
+    height: 669px;
+}
