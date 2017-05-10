@@ -1,0 +1,50 @@
+article.content__about
+  h2.article__header.content__header Основная информация
+  .about__user
+    .user__avatar
+      img(class="user__photo" src="img/user.jpg")
+    .user__info
+      ul.info__list
+        li.info__item 
+          span.info__item-header Меня зовут
+          span.info__item-text Иванов Андрей Степанович
+        li.info__item 
+          span.info__item-header Мой возраст
+          span.info__item-text 25 лет
+        li.info__item 
+          span.info__item-header Мой город
+          span.info__item-text Санкт-Перербург. Россия
+        li.info__item 
+          span.info__item-header Моя специализация
+          span.info__item-text FRONT-END Разработчик
+        li.info__item 
+          span.info__item-header Ключевые навыки
+          ul.skill__list
+            each skill in ['HTML', 'CSS', 'Javascript', 'Gulp', 'Git']
+              li.skill__item.skill__grad= skill
+
+
+article.content__experience
+  h2.article__header.content__header Опыт работы
+  ul.experience__list
+    li.experience__item 
+      p.experience__header.item__header ЧП Иванов продавец-консультант
+      p.experience__text.item__text август-сентябрь
+    li.experience__item 
+      p.experience__header.item__header ЧП Иванов продавец-консультант
+      p.experience__text.item__text август-сентябрь
+    li.experience__item 
+      p.experience__header.item__header ЧП Иванов продавец-консультант
+      p.experience__text.item__text август-сентябрь
+      
+
+article.content__educations
+h2.article__header.content__header Образование
+ul.educations__list
+  li.educations__item 
+     p.educations__header.item__header ЧП Иванов
+     p.educations__text.item__text продавец-консультант
+  li.educations__item 
+     p.educations__header.item__header ЧП Иванов
+     p.educations__text.item__text продавец-консультант
+

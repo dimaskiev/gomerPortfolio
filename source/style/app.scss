@@ -1,14 +1,23 @@
-/*Переменные и шаблоны*/
+/*шрифты*/
+
+@import 'common/fonts';
+
+/*переменные*/
+
+@import 'common/variables';
+
+/*Миксины*/
 
 @import 'common/mixin';
-//@import 'common/sprite';
+
+/*Общие настройки лейаута*/
+
 @import 'common/layout';
-@import 'common/fonts';
 
 /*Блоки*/
 
 @import 'block/**/*';
 
-/*Страницы*/
+/*Страницы */
 
-@import 'pages/welcome/index'
+@import 'pages/**/*';

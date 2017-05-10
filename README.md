@@ -3,7 +3,7 @@
 #### for Start
 
 # Клонировать депозиторий
-1. git clone https://github.com/dimaskiev/gomerPortfolio.git my-builder  && cd gomerPortfolio
+1. git clone https://github.com/dimaskiev/gomerPortfolio.git Portfolio  && cd Portfolio
 # Установить глобально gulp-cli
 2. npm install gulpjs/gulp-cli -g
 # Установить все зависимости из package.json
