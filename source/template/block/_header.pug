@@ -1,6 +1,7 @@
-mixin header(page)
-  | Это хедер
-
-
-
-
+header.header
+  .header__logo
+    img.logo(src="img/logo.jpg", alt="")
+  .header__social
+    ul.social__list
+      each soc in ['vk','tw', 'fb', 'git']
+        li(class=`social__item social__item_${soc}`)

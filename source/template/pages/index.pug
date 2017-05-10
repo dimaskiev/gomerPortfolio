@@ -1,10 +1,18 @@
 extends ../_template
 
 block variables
-  - var title = 'Welcome to my page'
-  include ../common/_header
+  - var title = 'Gomer Portfolio Templates'
+  
 
 
 block content
   .wrapper
-     Привет!
+    include ../block/_header
+    section.main
+      .wrapper__page
+        aside.main__nav
+          include ../block/_menu
+          include ../block/_contacts
+        .main__content
+          include ../block/_content
+    include ../block/_footer
